@@ -82,7 +82,7 @@ Here is a link to an example of the final product, but feel free to style the pa
 	- Each `<MovieCard>` should display the movie's poster as the background, the name of the movie & its release date.
 
 3. Create a `<MovieDetailPage>` component that renders the details of a movie when the user clicks on a movie rendered by `<MoviesListPage>`:
-	- Use the `useParams` hook from React Router to access the `movieName` route parameter defined in the `<Route>`.
+	- Use the `useParams` hook from React Router to access the `movieName` route parameter defined in the `<Route>`.  Once you have access to the movie title you can used the movies.find method to find the movie based on the title returned by the params.  In order to do this, your `<MovieDetailPage>` will also need to either import data.js, or take this information as a prop passed from the `<App>`.  
 	- The detail page should display all relevant information about a single movie:
 		- `title`
 		- `releaseDate`
