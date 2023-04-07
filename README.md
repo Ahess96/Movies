@@ -22,10 +22,14 @@ Here is a link to an example of the final product, but feel free to style the pa
 ## Exercises
 
 1. Start by creating skeleton page-level components for each page of the application plus a navbar:
+	
+	Pages folder: 
 	- `<LoginPage>`
 	- `<MoviesListPage>`
 	- `<MovieDetailPage>`
 	- `<ActorListPage>`
+	
+	Components folder: 
 	- `<NavBar>`
 
 2. Set up a `user` state variable in `<App>` that will keep track of the user.  The `user` state should be initialed to `null` (no user) and updated to a string when the user "logs in".
