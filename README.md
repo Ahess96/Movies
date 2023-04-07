@@ -9,7 +9,7 @@ Dancing with the stars
 
 Following along with what you did today in the MERN-Stack Infrastructure - Part 2 lesson, you will be creating your own `react-movies` application!
 
-You will need to create a new React CodeSandbox project named `react-movies`.
+You will need to create a new React project named`react-movies` based on the way we setup our mern infrastructure in class.
 
 This application will provide a movie & actor list.
 
@@ -59,7 +59,7 @@ At this point in the application, you should be able to "login" and see your use
 
 ## Intro
 
-For this lab, you will continue working in your existing `react-movies` project on CodeSandbox.
+For this lab, you will continue working in your existing `react-movies` project.
 
 Part 2 of the lab will focus on the Movie Index & Detail Pages.
 
