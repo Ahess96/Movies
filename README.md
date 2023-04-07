@@ -32,7 +32,7 @@ Here is a link to an example of the final product, but feel free to style the pa
 	components folder: 
 	- `<NavBar>`
 
-2. Set up a `user` state variable in `<App>` that will keep track of the user.  The `user` state should be initialed to `null` (no user) and updated to a string when the user "logs in".
+2. Set up a `user` state variable in `<App>` that will keep track of the user.  The `user` state should be initialized to `null` (no user) and updated to a string when the user "logs in".
 
 3. Code `<LoginPage>` so that when a username is submitted, the `user` state in `<App>` is updated to the username causing a re-render...
 
