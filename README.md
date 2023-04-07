@@ -9,7 +9,7 @@ Dancing with the stars
 
 Following along with what you did today in the MERN-Stack Infrastructure - Part 2 lesson, you will be creating your own `react-movies` application!
 
-You will need to create a new React project named`react-movies` based on the way we setup our mern infrastructure in class, although we won't be connecting to mongodb so there's no need to configure a database connection.  Remember that we need to install react router dom by doing npm i react-router-dom. 
+You will need to create a new React project named`react-movies` based on the way we setup our mern infrastructure in class, although we won't be connecting to mongodb so there's no need to configure a database connection.  Remember that we need to install react router dom via npm i react-router-dom. 
 
 This application will provide a movie & actor list.
 
