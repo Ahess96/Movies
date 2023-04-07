@@ -46,7 +46,7 @@ Here is a link to an example of the final product, but feel free to style the pa
     | Yes | `path="/movies/:movieName"`| `<MovieDetailPage>`|
     | Yes | `path="/actors"` | `<ActorsListPage>`|
 
-5. Code the `<NavBar>` so that it renders whenever a user exists and displays a `<Link>` for accessing the `<MoviesListPage>` & `<ActorsListPage>` as well as the user's username entered.
+5. Code the `<NavBar>` so that it displays a `<Link>` for accessing the `<MoviesListPage>` & `<ActorsListPage>` as well as the user's username entered.
 
 ## Deliverable
 
