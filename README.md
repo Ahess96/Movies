@@ -41,7 +41,7 @@ Here is a link to an example of the final product, but feel free to style the pa
     | `user` state has a value?  | `path` in `<Route>` Component | Component to Render |
     |---|---|---|
     | No | `path="/"`| `<LoginPage>`|
-    | Yes | All Paths | `<NavBar>`|
+    | Yes | N/A | `<NavBar>`|
     | Yes | `path="/"`| `<MoviesListPage>`|
     | Yes | `path="/movies/:movieName"`| `<MovieDetailPage>`|
     | Yes | `path="/actors"` | `<ActorsListPage>`|
