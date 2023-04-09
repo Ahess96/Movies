@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import MoviesListPage from '../MoviesListPage/MoviesListPage';
 import MovieDetailPage from '../MovieDetailPage/MovieDetailPage';
 import ActorListPage from '../ActorListPage/ActorListPage';
+import { movies } from '../../data.js';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -20,8 +21,8 @@ function App() {
         <>
           <NavBar />
           <Routes>
-            <Route path='/' element={<MoviesListPage />} />
-            <Route path='movies/:movieName' element={<MovieDetailPage />} />
+            <Route path='/' element={<MoviesListPage movies={movies}/>} />
+            <Route path='movies/:title' element={<MovieDetailPage />} />
             <Route path='actors' element={<ActorListPage />} />
           </Routes>
         </> 
