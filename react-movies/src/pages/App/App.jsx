@@ -20,10 +20,11 @@ function App() {
       { user ?
         <>
           <NavBar />
+          <br /><br />
           <Routes>
             <Route path='/' element={<MoviesListPage movies={movies}/>} />
             <Route path='movies/:title' element={<MovieDetailPage />} />
-            <Route path='actors' element={<ActorListPage />} />
+            <Route path='/actors' element={<ActorListPage />} />
           </Routes>
         </> 
       :

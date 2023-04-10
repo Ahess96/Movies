@@ -1,0 +1,8 @@
+.actor {
+  background-size: cover; 
+  height: 200px;
+}
+
+.actor h2 {
+    background-color: rgba(230, 230, 230, 0.5);
+}
